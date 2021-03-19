@@ -1,2 +1,5 @@
-# docker-load-balancing-in-vagrant-
-This project build up one vagrant and install docker and docker-compose on it. After build up 5 docker images( 1-database; 1-load balancer, 3 web server ), and these will work together. (if you will want use; you need to change some data in it)
+# Three Webserver(Tomcat) connected to Load-balancing with docker-compose files.
+
+This is a Load-Balancing project with Tomcat-webservers.
+After `vagrant up` it my takes some time until connections between containers stand up (like 5 min),
+and after that your three new webserver is avaliable.
